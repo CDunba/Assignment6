@@ -1,15 +1,15 @@
 package game.CounterView;
 
 import javax.swing.JPanel;
-import game.CounterController.cardGameAppController;
+import game.CounterController.gameController;
 
 public class cardTablePanel extends JPanel
 {
-   private cardGameAppController baseController;
+   private gameController control;
    
-   public cardTablePanel(cardGameAppController baseController)
+   public cardTablePanel(gameController control)
    {
-      this.baseController = baseController;
+      this.control = control;
       
    }
 }
